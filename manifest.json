@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "QuickTPE",
+  "version": "1.0.0",
+  "description": "A quick way to submit TPE forms for lazy students like me!",
+  "permissions": [
+    "activeTab",
+    "declarativeContent"
+  ],
+  "icons": {
+    "128": "i128.png",
+    "16": "i16.png"
+  },
+  "browser_action": {
+    "default_icon": "i16.png",
+    "default_popup": "popup.html"
+  }
+}
